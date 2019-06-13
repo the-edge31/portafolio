@@ -1,0 +1,32 @@
+main {
+	
+	font-family:$lato;
+	font-size:$large;
+
+}
+
+main img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.main__fix {
+	position:fixed;
+	background:$verde;
+	z-index:1;
+	height:100%;
+}
+
+a {
+	font-family:$lato;
+	font-size:$medium;
+	color:$azul;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px;
+    font-weight:$bold;
+    display: block;
+    padding-top:10px;
+}
