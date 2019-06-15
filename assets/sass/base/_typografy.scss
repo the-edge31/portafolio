@@ -15,7 +15,7 @@ h1 {
 
 h3 {
 	font-family:$lato;
-	font-size:$large;
+	font-size:$medium;
 	color:$black;
 	font-weight:$regular;
 }
@@ -29,4 +29,10 @@ h2 {
 	margin-bottom:2%;
 }
 
+@media only screen and (max-width:991px) {
+	h1 {
+		font-size:$large;
+	}
+
+}
 

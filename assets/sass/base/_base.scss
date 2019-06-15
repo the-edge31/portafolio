@@ -11,7 +11,7 @@ i {
 }
 
 .fab {
-    margin-left: 15px;
+	margin-left: 15px;
 }
 
 hr {
@@ -25,5 +25,12 @@ span {
 	font-size:$medium;
 	color:$azul;
 	text-transform: uppercase;
-	text-align:right;
 }
+
+@media only screen and (max-width:991px) {
+	.col-12 {
+		margin-left:0;
+	}
+
+}
+

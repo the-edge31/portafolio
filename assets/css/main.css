@@ -9680,9 +9680,13 @@ span {
   font-size: 18px;
   color: #2d3047;
   text-transform: uppercase;
-  text-align: right;
 }
 
+@media only screen and (max-width: 991px) {
+  .col-12 {
+    margin-left: 0;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -9754,7 +9758,7 @@ h1 {
 
 h3 {
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   color: #000;
   font-weight: 400;
 }
@@ -9768,6 +9772,19 @@ h2 {
   margin-bottom: 2%;
 }
 
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+header {
+  background: #7cea9c;
+}
+
+header nav img {
+  width: 65%;
+}
+
 main {
   font-family: "Lato", sans-serif;
   font-size: 25px;
@@ -9777,7 +9794,8 @@ main img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 70%;
+  margin-top: 20%;
 }
 
 .main__fix {
@@ -9802,8 +9820,8 @@ a {
 section {
   background: #fff;
   height: auto;
-  margin-left: 300px;
-  margin-top: 10%;
+  margin-top: 8%;
+  margin-left: 22%;
 }
 
 .section__icon {
@@ -9812,6 +9830,27 @@ section {
 
 article {
   margin-top: 3%;
+}
+
+article label {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+article input {
+  width: 60%;
+}
+
+.form-control {
+  display: block;
+  width: 74%;
+}
+
+textarea.form-control {
+  margin-bottom: 21%;
+  height: 201px;
 }
 
 /*# sourceMappingURL=main.css.map */

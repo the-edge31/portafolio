@@ -9,10 +9,31 @@
 	<title>Portafolio</title>
 </head>
 <body>
+	<header class="">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-dark success d-lg-none">
+				<a class="navbar-brand" href="#">
+					<img src="assets/images/avatar.png" alt="perfil">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse nav justify-content-center" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a href="#" class="active">acerca de mi</a>
+						<a href="#">experiencia</a>
+						<a href="#">Educación</a>
+						<a href="#">Habilidades</a>
+						<a href="#">Contacto</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
 	<main>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-2 main__fix">
+				<div class="col-2 main__fix d-none d-lg-block">
 					<img src="assets/images/avatar.png" alt="perfil">
 					<br>
 					<div class="main__menu">
@@ -23,7 +44,7 @@
 						<a href="#">Contacto</a>
 					</div>
 				</div>
-				<section class="col-10">
+				<section class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
 					<h1>vanessa gallegillos</h1>
 					<h3>calle siempre viva 1852 I +569 9687456 I vanegallegillos@mail.com</h3>
 					<p class="p__contenedor">
@@ -37,24 +58,42 @@
 					<hr>
 					<article>
 						<h1>experiencia</h1>
-						<h2>desafio latam</h2>
-						<span>2017-2018</span>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+								<h2>desafio latam</h2>
+							</div>
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<span>2017-2018</span>
+							</div>
+						</div>
 						<p class="p__contenedor">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
 						</p>
 					</article>
 					<article>
-						<h2>retailadd</h2>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+								<h2>retailadd</h2>
+							</div>
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<span>2015-2017</span>
+							</div>
+						</div>
 						<h3>UX/UI Designer</h3>
-						<span>2015-2017</span>
 						<p class="p__contenedor">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
 						</p>
 					</article>
 					<article>
-						<h2>Cafeteria haippe</h2>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+								<h2>Cafeteria haippe</h2>
+							</div>
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<span>2013-2015</span>
+							</div>
+						</div>
 						<h3>Barista</h3>
-						<span>2013-2015</span>
 						<p class="p__contenedor">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
 						</p>
@@ -62,20 +101,38 @@
 					<hr>
 					<article>
 						<h1>educación</h1>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+								<h2>desafio latam</h2>
+							</div>
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<span>2017</span>
+							</div>
+						</div>
 						<br>
-						<h2>desafio latam</h2>
 						<h3>Front-end</h3>
-						<span>2017</span>
 					</article>
 					<article>
-						<h2>ux/ui online university</h2>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+								<h2>ux/ui online university</h2>
+							</div>
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<span>2015-2016</span>
+							</div>
+						</div>
 						<h3>ux/ui</h3>
-						<span>2015-2016</span>
 					</article>
 					<article>
-						<h2>uddla</h2>
+						<div class="row">
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+								<h2>uddla</h2>
+							</div>
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<span>2010-2015</span>
+							</div>
+						</div>
 						<h3>Diseñador gráfico</h3>
-						<span>2010-2015</span>
 					</article>
 					<hr>
 					<article>
@@ -112,7 +169,8 @@
 				</section>
 			</div>
 		</div>
-	</div>
-</div>
-</main>
+	</main>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
