@@ -9655,6 +9655,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .p__contenedor {
   width: 75%;
   margin-top: 4%;
